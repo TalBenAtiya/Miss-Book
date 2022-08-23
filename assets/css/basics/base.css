@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}

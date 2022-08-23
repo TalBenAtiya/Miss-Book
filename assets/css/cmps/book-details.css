@@ -1,0 +1,64 @@
+.book-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.sale-modal img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.details-container .red {
+    color: crimson;
+}
+
+.details-container .green {
+    color: rgb(0, 178, 0);
+}
+
+.details-container>button {
+    align-self: flex-end;
+    border: 0;
+}
+
+.details-container>button:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.details-container button img{
+    width: 35px;
+}
+
+h2 , h3 , h4 {
+    margin: 0
+}
+
+.book-details .pages-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(11, 57, 83);
+}
+
+.pages-btn button {
+    color: rgb(11, 57, 83);
+    border: 0;
+    background-color: none;
+    font-size: 20px;
+}
+
+.pages-btn button:hover { 
+    background-color: rgb(233, 233, 233);
+    color: rgb(172, 19, 95);
+}

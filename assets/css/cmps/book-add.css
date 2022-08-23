@@ -1,0 +1,42 @@
+.book-add {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.book-add form {
+    margin-top: 20px;
+}
+
+.book-add input {
+    width: 15%;
+    align-self: center;
+    margin-inline-start: 10px;
+    margin-inline-end: 5px;
+}
+
+.book-add .search-book-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.search-book-list li {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-book-list li button {
+    color: rgb(233, 233, 233);
+    background-color: rgb(172, 19, 95);
+    border: 0;
+    padding: 5px;
+    border-radius: 0.5em;
+}
+

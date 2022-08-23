@@ -1,0 +1,48 @@
+.main-header {
+    background-color: rgb(11, 57, 83);
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 0px;
+}
+
+.app-header img {
+    width: 50px;
+}
+
+.app-header h3 {
+    color: rgb(172, 19, 95);
+    font-size: 35px;
+    margin: 0;
+}
+
+.app-header nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.app-header a{
+    font-size: 20px;
+    transition: 0.2s;
+    padding-bottom: 5px;
+    color: rgb(233, 233, 233);
+}
+.app-header a:hover{
+    color: rgb(172, 19, 95);
+    box-shadow: inset 0px -2px 0px 0px rgb(172, 19, 95);
+}
+
+.app-header .logo-container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.app-header .active {
+    color: rgb(172, 19, 95);
+    box-shadow: inset 0px -2px 0px 0px rgb(172, 19, 95);
+}

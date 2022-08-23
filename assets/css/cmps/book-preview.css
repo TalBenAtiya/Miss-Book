@@ -1,0 +1,35 @@
+.book-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 16px 15px 7px -14px #00000037;
+    border-radius: 0.6em;
+    transition: 0.2s;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+.book-preview:hover {
+    background-color: rgb(11, 57, 83);
+}
+
+.book-preview>:first-child {
+    color: rgb(172, 19, 95);
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.book-preview>:last-child {
+    color: rgb(50, 182, 90);
+    font-size: 16px;
+    margin-top: 5px;
+
+}
+
+.book-preview img {
+    height: 200px;
+    object-fit: contain;
+}

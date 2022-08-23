@@ -1,0 +1,15 @@
+.main-header .user-msg {
+    display: flex;
+    background-color: rgb(172, 19, 95);
+    color: rgb(233, 233, 233);
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.main-header .user-msg button {
+    background-color: none;
+    border: 0;
+}

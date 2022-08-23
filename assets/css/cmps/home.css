@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.home div {
+    margin-top: 50px;
+}
+
+.home .info-container {
+    width: 50%;
+}

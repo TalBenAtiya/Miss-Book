@@ -1,0 +1,10 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.about .info-container {
+    width: 50%;
+}
